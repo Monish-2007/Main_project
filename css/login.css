@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-container {
+    width: 1349px;
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+}
+.sub-container1 {
+    display: flex;
+    width: 1349px;
+    height: 60px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: chocolate;
+}
+.sub-container1 .logo h1 {
+    color: white;
+    font-family: "Pacifico", serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 5px;
+}
+.sub-container1 .search {
+    background-color: white;
+    border-radius: 15px;
+}
+.sub-container1 .search input {
+    width: 200px;
+    height: 35px;
+    border-radius: 15px;
+    padding-left: 15px;
+    outline: none;
+    border: none;
+}
+.sub-container1 .search button {
+    padding: 8px;
+    background-color: white;
+    border: none;
+    outline: none;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.sub-container1 .nav-bar ul {
+    display: flex;
+}
+.sub-container1 .nav-bar ul li {
+    list-style-type: none;
+    margin-left: 30px;
+}
+.sub-container1 .nav-bar ul li a {
+    text-decoration: none;
+    font-family: "Oleo Script", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    letter-spacing: 0.5px;
+    color: white;
+    transition: all 0.2s linear;
+}
+.sub-container1 .nav-bar ul li a:hover {
+    font-size: 27px;
+    border-bottom: 2px solid white;
+}
+.icon-detail a {
+    font-size: 25px;
+    color: white;
+    margin-left: 25px;
+    transition: all 0.2s linear;
+}
+.icon-detail a:hover {
+    font-size: 27px;
+}
+.sub-container2 {
+    width: 1349px;
+    padding: 20px;
+    display: flex;
+}
+.sub-container2 .login-box {
+    width: 100%;
+    background-color: white;
+    height: 700px;
+    border-radius: 15px;
+    
+
+}

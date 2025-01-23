@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: aqua;
+}
+.container {
+    width: 1349px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    padding: 20px;
+}
+.container>a {
+    position: absolute;
+    z-index: 200;
+    top: 5%;
+    right: 5%;
+    color: black;
+    font-size: 25px;
+}
+.box {
+    width: 100%;
+    border-radius: 15px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    padding: 20px 60px;
+    flex-direction: column;
+    align-items: center;
+}
+.box h1 {
+    text-align: center;
+    font-family: "Permanent Marker", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 10px;
+    color: white;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 40px;
+    background-color: blueviolet;
+}
+.pname,.pprice,.pcategory,.mimage,.pimage1,.pimage2,.pimage3,.pdesc,.submit {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    background-color: red;
+    border-radius: 15px;
+}
+.submit input {
+    height: 35px;
+}
+.pcategory {
+    display: flex;
+    justify-content: flex-start;
+}
+.pdesc {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 15px;
+}
+.pcategory select {
+    margin-left: 60px;
+    background-color: aqua;
+    border-radius: 15px;
+    width: 80%;
+    padding-left: 20px; 
+    transition: all .3s linear; 
+}
+.pcategory select:hover {
+    background-color: rgb(28,3,88);
+    color: white;
+    border: 3px solid white;
+}
+.mimage input,.pimage1 input,.pimage2 input,.pimage3 input{
+    padding-top: 7px;
+}
+label{
+    font-size: 20px;
+    font-family: "Pacifico", serif;
+    font-weight: 300;
+    font-style: normal;
+    color: white;
+
+}
+input{
+    width: 80%;
+    padding-left: 20px;
+    border-radius: 15px;
+    border: none;
+    background-color: aqua;
+    color: black;
+    font-family: 'poppins','serif';
+    transition: all .3s linear;
+}
+input:hover {
+    background-color: rgb(28,3,88);
+    color: white;
+    border: 3px solid white;
+    outline: white;
+}
+textarea {
+    width: 100%;
+    height: 70px;
+    background-color: aqua;
+    font-size: 'poppins','serif';
+    padding-left: 20px;
+    padding-top: 5px;
+    font-size: 15px;
+    transition: all .3s linear;
+}
+textarea:hover {
+    background-color: rgb(28, 3, 88);
+    color: white;
+    border: 3px solid white;
+}
+.submit {
+    justify-content: center;
+}
+.submit input {
+    font-size: 18px;
+    font-weight: 500;
+    transition: all .3s linear;
+}
+.submit :hover {
+    font-size: 15px;
+    color: white;
+    background-color: rgb(28, 3, 88);
+    
+}
+#mess {
+    position: absolute;
+    top: 2%;
+    left: 40%;
+    font-family: 'poppins','serif';
+    font-size: 20px;
+    padding: 5px 20px;
+    background-color: darkgreen;
+    color: white;
+    border: 4px solid rgb(255, 255, 255);
+    border-radius: 15px;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+#mess i {
+    margin-top: 5px;
+}

@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'pacifico';
+    letter-spacing: 1px;
+}
+body {
+    background-color:  rgb(192, 86, 86);
+}
+.container {
+    width: 1349px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(192, 86, 86);
+    padding: 20px;
+}
+.container>a {
+    position: absolute;
+    z-index: 200;
+    top: 5%;
+    right: 5%;
+    color: black;
+    font-size: 25px;
+}
+.container .liked-product {
+    width: 100%;
+    border-radius: 15px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.row {
+    border: white 2px solid;
+}
+td {
+    text-align: center;
+    padding: 0px 60px;
+}
+th {
+    padding: 5px 60px;
+}
